@@ -19,5 +19,4 @@ const githubPagesSpaPlugin = () => ({
 
 export default defineConfig({
   plugins: [react(), githubPagesSpaPlugin()],
-  base: '/tex-invoice/',
 })
